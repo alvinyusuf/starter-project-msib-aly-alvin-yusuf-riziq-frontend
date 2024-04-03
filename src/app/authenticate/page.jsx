@@ -3,6 +3,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
+export const metadata = {
+  title: "Authenticate",
+};
+
 export default function Authenticate() {
   return (
     <div className="flex flex-row h-screen">
