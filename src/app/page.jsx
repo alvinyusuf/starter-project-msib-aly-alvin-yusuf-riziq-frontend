@@ -1,8 +1,8 @@
 import React from 'react'
-import Login from './authenticate/login/page'
+import Authenticate from './authenticate/page'
 
 export default function Home() {
   return (
-    <Login></Login>
+    <Authenticate></Authenticate>
   )
 }
