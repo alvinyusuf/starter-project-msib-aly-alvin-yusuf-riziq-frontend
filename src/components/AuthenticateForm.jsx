@@ -10,7 +10,7 @@ export default function AuthenticateForm() {
   };
 
   return (
-    <>
+    <div className="">
       <h1 className="font-bold text-2xl text-gray-800">
         {login ? "Account Login" : "Account Signup"}
       </h1>
@@ -90,6 +90,6 @@ export default function AuthenticateForm() {
           )}
         </div>
       </form>
-    </>
+    </div>
   );
 }
