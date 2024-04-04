@@ -12,14 +12,16 @@ export const metadata = {
 
 export default function Profile() {
   return (
-        <div className="flex flex-col">
+    <div className="flex flex-col">
       <div className="h-24 bg-orange-500 px-10 flex items-center justify-between">
-        <Image src='/logo_navbar.png' width={80} height={80} alt='logo' />
-        <Link href='/' className='text-white'><FaCircleXmark size={40}></FaCircleXmark></Link>
+        <Image src="/logo_navbar.png" width={80} height={80} alt="logo" />
+        <Link href="/" className="text-white">
+          <FaCircleXmark size={40}></FaCircleXmark>
+        </Link>
       </div>
       <div className="flex flex-col py-10">
         <div className="flex justify-center">
-        <FaRegUserCircle size={180} />
+          <FaRegUserCircle size={180} />
         </div>
         <div className="flex justify-center">
           <div className="mt-4 md:mx-14">
