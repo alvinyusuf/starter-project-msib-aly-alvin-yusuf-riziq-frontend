@@ -24,7 +24,7 @@ export default function Profile() {
           <FaRegUserCircle size={180} />
         </div>
         <div className="flex justify-center">
-          <div className="mt-4 md:mx-14">
+          <div className="mt-4 mx-4">
             <ProfileCarad></ProfileCarad>
           </div>
         </div>
